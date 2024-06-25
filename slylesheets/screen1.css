@@ -1,0 +1,118 @@
+.body1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.screen1_1{
+  display: grid;
+  grid-template-areas: "stack";
+  position: relative;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.echopast1,
+.aboutproject1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 4vw;
+  color: #0793b7;
+  background: none;
+  border: none;
+  margin: 2.5vw;
+}
+
+.echopast1 a {
+  text-decoration: none;
+  color: #0793b7;
+}
+
+.echopast1 a:hover {
+  color: #3b3b3b;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.textmain {
+  margin-top: 7vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 2.5vw;
+  color: #3b3b3b;
+}
+
+.photomuseum {
+  width: 100%;
+}
+
+.mySwiper{
+  top: 1vw;
+  grid-area: stack;
+  position: relative;
+}
+
+.swiper-slide img {
+  width: 30vw;
+  margin-bottom: 5vw;
+  margin-top: 2vw;
+  box-shadow: 1vw 1vw 1vw rgba(73, 70, 70, 0.137);
+}
+
+.swiper {
+  width: 65vw;
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #239cc6 !important;
+  position: relative !important;
+}
+
+.swiper-button-prev {
+  margin-right: 3vw;
+}
+
+.swiper-button-next::after {
+  font-family: Arial, Helvetica, sans-serif !important;
+  content: ">" !important;
+  font-size: 3vw !important;
+}
+
+.swiper-button-prev::after {
+  font-family: Arial, Helvetica, sans-serif !important;
+  content: "<" !important;
+  font-size: 3vw !important;
+}
+
+.swiper-controls {
+  display: flex;
+  justify-content: center;
+  width: 13vw;
+  height: 10vw;
+  background-image: url("../images/oncart.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  left: 80vw;
+  bottom: 2vw;
+}
+
+.underguidebook{
+  grid-area: stack;
+  position: relative;
+  width: 65vw; 
+  left: 18vw;
+}

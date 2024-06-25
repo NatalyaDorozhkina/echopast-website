@@ -1,0 +1,148 @@
+.screen2 {
+  margin-bottom: 10vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.echopast2,
+.shop2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 4vw;
+  color: #0793b7;
+  background: none;
+  border: none;
+  margin: 2.5vw;
+}
+
+.echopast2 a {
+  text-decoration: none;
+  color: #0793b7;
+}
+
+.echopast2 a:hover {
+  color: #3b3b3b;
+}
+
+.main2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 9vw;
+  row-gap: 0vw;
+  padding: 0 16vw;
+}
+
+.guide {
+  width: 23vw;
+  margin-top: 7vw;
+  margin-left: 4vw;
+}
+
+.letters {
+  width: 24vw;
+  margin-left: 5vw;
+  margin-bottom: 4vw;
+}
+
+.bag {
+  width: 20vw;
+  margin-left: 6vw;
+}
+
+.notebook {
+  width: 24vw;
+  margin-top: 6vw;
+  margin-left: 1vw;
+}
+
+.good1,
+.good2,
+.good3,
+.good4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.buy1,
+.buy2,
+.buy3,
+.buy4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 2.5vw;
+  color: #0793b7;
+  background: none;
+  border: none;
+}
+
+.buy1:hover, .buy2:hover, .buy3:hover, .buy4:hover{
+  color: #3b3b3b;
+  cursor: pointer;
+}
+
+.buying1,
+.buying2,
+.buying3,
+.buying4 {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.name2,
+.name3,
+.name4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/underform.png");
+  background-repeat: no-repeat;
+  background-size: 105%;
+}
+
+.name1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/underform.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.name1 {
+  height: 9vw;
+}
+
+.name2 {
+  height: 8vw;
+}
+
+.name3,
+.name4 {
+  height: 8vw;
+  width: 13vw;
+}
+
+.textname1,
+.textname2,
+.textname3,
+.textname4 {
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 2.5vw;
+  color: #3b3b3b;
+  text-align: center;
+}

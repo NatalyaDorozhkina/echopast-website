@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "screen0.css";
+@import "screen1.css";
+@import "screen2.css";
+@import "screen3.css";
+@import "screen4.css";
+@import "responsive.css";
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+html {
+  overflow-x: hidden;
+}

@@ -1,0 +1,136 @@
+.header4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrappedmain4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "stack";
+  position: relative;
+}
+
+.echopast4, .manifest4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 4vw;
+  color: #0793B7;
+  background: none; 
+  border: none;
+  margin: 2.5vw;
+}
+
+.echopast4 a{
+    text-decoration: none;
+    color: #0793B7;
+  }
+  
+.echopast4 a:hover {
+    color: #3B3B3B;
+  }
+
+.main4{
+    grid-area: stack;
+    position: relative;
+    background-image: url("../images/document.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 76vw;
+    margin-top: 7vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18vw;
+}
+
+.textdocument{
+    margin-top: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 2.5vw;
+    color: #3B3B3B;
+}
+
+.greencloud{
+  grid-area: stack;
+  position: relative;
+  width: 16vw;
+  bottom: 35vw;
+  right: 3vw;
+  animation: gentleSwing 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.doc1{
+  background-image: url("../images/emphasize.png");
+  background-repeat: no-repeat;
+  background-size: 52%;
+  background-position: 18.3vw -2vw;
+  margin-top: 7vw;
+}
+
+
+.doc2{
+  background-image: url("../images/pencil.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 20vw;
+  height: 16vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doc1:hover, .doc2:hover, .doc3:hover{
+  animation: gentleSwing 3s ease-in-out infinite;
+  transform-origin: center;
+  cursor: pointer;
+}
+
+.doc3{
+  background-image: url("../images/card.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 28vw;
+  height: 16vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textdoc1, .textdoc2, .textdoc3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 3.5vw;
+  color: #3B3B3B;
+}
+
+.textdoc1{
+  display: flex;
+  justify-content: center;
+}
+
+.textdoc1_wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 3vw 8vw;
+}
+
+@keyframes gentleSwing {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}

@@ -1,0 +1,400 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body0{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fade-in{
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.fade-in.fade-in-finish {
+  opacity: 1;
+}
+
+.echopast,
+.museum {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 4vw;
+  color: #0793b7;
+  background: none;
+  border: none;
+  margin: 2.5vw;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8vw;
+  flex-wrap: wrap;
+  gap: 3.3vw;
+}
+
+.about_project,
+.shop,
+.events,
+.manifest,
+.webposter,
+.map{
+  width: auto;
+  display: grid;
+  grid-template-areas: "stack";
+  position: relative;
+}
+
+.underbook,
+.about_project_img,
+.textabout,
+.textshop,
+.textshopping,
+.oncart,
+.cart,
+.underevents,
+.calendar,
+.textevents,
+.textmanifest,
+.paper,
+.textwebposter,
+.poster,
+.memorymap,
+.textmap,
+.decorations,
+.submit,
+.text_input {
+  grid-area: stack;
+  position: relative;
+}
+
+.about_project_img {
+  top: 5vw;
+  z-index: 2;
+  width: 18vw;
+}
+
+.textabout,
+.textshop,
+.textshopping,
+.textevents,
+.textmanifest,
+.textwebposter,
+.textmap,
+.submit {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 2.5vw;
+  color: #0793b7;
+}
+
+.textabout {
+  position: relative;
+  top: 5vw;
+  z-index: 3;
+  left: 6vw;
+}
+
+.textabout a {
+  text-decoration: none;
+  color: #0793b7;
+}
+
+.echopast a:hover {
+  color: #3b3b3b;
+}
+
+.echopast a {
+  text-decoration: none;
+  color: #0793b7;
+}
+
+.textabout a:hover {
+  color: #3b3b3b;
+}
+
+.textshop a {
+  text-decoration: none;
+  color: #0793b7;
+}
+
+.textshop a:hover {
+  color: #3b3b3b;
+}
+
+.textevents a {
+  text-decoration: none;
+  color: #0793b7;
+}
+
+.textevents a:hover {
+  color: #3b3b3b;
+}
+
+.textmanifest a {
+  text-decoration: none;
+  color: #0793b7;
+}
+
+.textmanifest a:hover {
+  color: #3b3b3b;
+}
+
+.textwebposter a {
+  text-decoration: none;
+  color: #0793b7;
+}
+
+.textwebposter a:hover {
+  color: #3b3b3b;
+}
+
+.textmap a {
+  text-decoration: none;
+  color: #0793b7;
+}
+
+.textmap a:hover {
+  color: #3b3b3b;
+}
+
+.underbook {
+  left: 8vw;
+  width: 13vw;
+  animation: gentleSwing 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.cart {
+  z-index: 2;
+  width: 25vw;
+  right: 4vw;
+  top: 1.5vw;
+}
+
+.oncart {
+  z-index: 3;
+  width: 17vw;
+  left: 1vw;
+  top: 0.5vw;
+  animation: gentleSwing 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.textshop,
+.textshopping {
+  z-index: 4;
+}
+
+.textshopping {
+  top: 12vw;
+  left: 14vw;
+  rotate: 18deg;
+}
+
+.textshop {
+  top: 5vw;
+  left: 5.3vw;
+}
+
+.calendar {
+  width: 18vw;
+  left: 1vw;
+  top: 2.5vw;
+}
+
+.underevents {
+  width: 14vw;
+  right: 2vw;
+  animation: gentleSwing 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.textevents {
+  top: 5vw;
+  left: 4.3vw;
+}
+
+.paper {
+  top: 1vw;
+  left: 1.5vw;
+  width: 14vw;
+}
+
+.textmanifest {
+  top: 5vw;
+  left: 2.8vw;
+}
+
+.textwebposter {
+  text-align: center;
+  top: 5vw;
+  left: 4.5vw;
+}
+
+.poster {
+  top: 3vw;
+  left: 4vw;
+  width: 25vw;
+}
+
+.textmap {
+  text-align: center;
+  top: 5vw;
+  left: 1.6vw;
+}
+
+.memorymap {
+  width: 29.6vw;
+  left: 2vw;
+}
+
+.decorations {
+  z-index: 4;
+  width: 16vw;
+  left: 8vw;
+  bottom: 8.5vw;
+  animation: gentleSwing 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes gentleSwing {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+.sendings {
+  margin-top: 10vw;
+  display: flex;
+  justify-content: center;
+}
+
+.text_input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 2.5vw;
+  color: #3b3b3b;
+  border-radius: 2vw;
+  border: none;
+  background-color: rgba(241, 241, 241, 0.9);
+  padding: 1.5vw;
+  padding-right: 18vw;
+  left: 7.4vw;
+  padding-left: 2vw;
+}
+
+.text_input:focus {
+  outline: 0.3vw solid #0793b7;
+}
+
+.submit {
+  border: none;
+  background-color: rgba(241, 241, 241, 0);
+  right: 10vw;
+}
+
+.submit:hover {
+  color: #3b3b3b;
+}
+
+.underform {
+  width: 24vw;
+  position: absolute;
+  left: 21vw;
+  margin-top: 5.9vw;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #e8f9ff;
+  width: 100%;
+  height: 30vw; 
+  overflow: hidden;
+}
+
+.description {
+  display: flex;
+  margin-left: 65vw;
+  margin-top: 10vw;
+  margin-bottom: 4vw;
+}
+
+.textsendings,
+.behance,
+.github,
+.telegram {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 2.5vw;
+  color: #3b3b3b;
+}
+
+.new {
+  top: -1vw;
+  right: 0.5vw;
+  width: 6vw;
+  position: relative;
+}
+
+.behance,
+.github,
+.telegram {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.telegram:hover {
+  color: #0793b7;
+}
+
+.behance:hover {
+  color: #0793b7;
+}
+
+.github:hover {
+  color: #0793b7;
+}
+
+
+.cloud {
+  width: 24vw;
+ }
+
+.painting {
+  width: 24vw;
+}
+
+.wrappedfooter{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4vw;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+}
+
+.wrappedpainting{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 14vw;
+  position: relative;
+  top: 10vw;
+}
+
+.objectclick {
+  cursor: pointer;
+}
+

@@ -1,0 +1,196 @@
+@media only screen and (orientation: portrait) {
+
+    /* sreen0 */
+    .menu{
+        margin: 0 17vw;
+        left: 1vw;
+        gap: 5.3vw;
+    }
+
+    .about_project_img{
+        width: 25vw;
+    }
+   
+    .calendar{
+        width: 23vw;
+    }
+
+    .cart{
+        width: 27vw;
+    }
+
+    .oncart{
+        width: 20vw;
+        left: 3vw;
+    }
+
+    .paper{
+        width: 18vw;
+        left: 3vw;
+    }
+
+    .poster{
+        width: 27vw;
+    }
+
+    .manifest{
+        right: 9vw;
+    }
+
+    .webposter{
+        right: 5vw;
+        top: 5vw;
+    }
+
+    .map{
+        width: 24vw;
+        top: 5vw;
+        right: 4vw;
+    }
+
+    .echopast,
+    .museum,
+    .echopast1,
+    .aboutproject1,
+    .echopast2,
+    .shop2,
+    .echopast4,
+    .manifest4{
+        font-size: 5vw;
+    }
+
+    .textabout,
+    .textshop,
+    .textevents,
+    .textmanifest,
+    .textwebposter,
+    .textmap,
+    .submit,
+    .text_input,
+    .textsendings,
+    .behance,
+    .github,
+    .telegram,
+    .textmain,
+    .request_submit_input,
+    .event_title{
+        font-size: 4vw;
+    }
+
+    .textshopping{
+        font-size: 3vw;
+        left: 16vw;
+    }
+   
+    .submit {
+        right: 15.5vw;
+      }
+   
+    .input0{
+        margin-left: 8vw;
+        width: 60vw;
+        left: 12vw ;
+     }
+
+    .new{
+        width: 8vw;
+    }
+
+    .description{
+         margin-left: 48vw;
+    }
+   
+    .underform{
+        left: 12vw;
+        margin-top: 7vw;
+    }
+    
+    /* screen1 */
+    .swiper-slide img {
+        width: 40vw;
+      }
+      
+    .swiper {
+        width: 90vw;
+      }
+    
+    .underguidebook{
+        width: 90vw; 
+        left: 5vw;
+      }
+
+    .swiper-button-next::after {
+        font-size: 5vw !important;
+      }
+      
+    .swiper-button-prev::after {
+        font-size: 5vw !important;
+      }
+      
+    /* screen2 */
+    .textname1,
+    .textname2,
+    .textname3,
+    .textname4,
+    .buy1,
+    .buy2,
+    .buy3,
+    .buy4{
+        font-size: 4vw;
+    }
+    
+    .buy1,
+    .buy2,
+    .buy3,
+    .buy4{
+        margin-left: 2vw;
+    }
+
+    .main2 {
+        column-gap: 12vw;
+        row-gap: 20vw;
+        padding: 0 1vw;
+    }
+
+    .name1 {
+        background-size: 69%;
+        background-position: 4vw 0;
+    }
+
+    .name2 {
+        background-size: 87%;
+        background-position: 1vw ;
+    }
+    .name3 {
+        background-size: 115%;
+        background-position: -1vw;
+    }
+    
+    .name3 {
+        background-size: 115%;
+        background-position: -1vw;
+    }
+    
+    .buy1{
+        left: 2vw;
+    }
+    /* screen3 */
+    .request_submit_input {
+        width: 45vw;
+    }
+
+    .event1,
+    .event2,
+    .event3,
+    .event4,
+    .event5 {
+        width: 28vw;
+        height: 41vw;
+  }
+
+  .row1 {
+    margin: 0 3.5vw;
+  }
+}
+   
+

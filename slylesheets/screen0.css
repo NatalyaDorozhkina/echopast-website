@@ -342,6 +342,12 @@ footer{
   color: #3b3b3b;
 }
 
+.behance,
+.github,
+.telegram {
+  text-decoration: none;
+}
+
 .new {
   top: -1vw;
   right: 0.5vw;
